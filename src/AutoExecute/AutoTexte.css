@@ -19,7 +19,7 @@
   }
 
    
-@media screen and (min-width: 578px) and (max-width: 1200px) {
+@media screen and (min-width: 587px) and (max-width: 1200px) {
   .auto-typing-text{
       
       
@@ -28,11 +28,11 @@
     
   }
 }
-  @media screen and (max-width: 578px) {
+  @media screen and (max-width: 587px) {
     .auto-typing-text{
       
       
-      font-size: 10px;
+      font-size: 8px;
      
       
     }

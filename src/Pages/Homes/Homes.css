@@ -186,25 +186,17 @@ hr{
     width: 60%;
     border-width: 0.2px;
 }
-@media screen and (min-width: 560px) and (max-width: 1200px) {
+@media screen and (min-width: 587px) and (max-width: 1200px) {
 
     main{
         border: 2px solid white;
         margin-top: -2rem;
     }
 
-    .fleche i{
-        font-size: 30px;
-        color: white;
-        font-weight: bold;
-        transform: translateY(50px);
-        -webkit-transform: translateY(50px);
-        -moz-transform: translateY(50px);
-        -ms-transform: translateY(50px);
-        -o-transform: translateY(50px);
-        animation: 1.2s linear 1s infinite running slidein;
-        -webkit-animation: 1.5s linear 1s infinite running slidein;
-}
+    .fleche .fa-angles-down{
+        font-size: 25px;
+         
+    }
     
 .image_font{
     position: relative;
@@ -255,11 +247,19 @@ hr{
 }
 }
 
-@media screen and (max-width: 578px) {
-    .fleche i{
-        font-size: 10px;
-        
-}
+@media screen and (max-width: 587px) {
+    .fleche .fa-angles-down{
+        font-size: 20px;
+         
+    }
+.image_font .fleche{
+     
+    
+     width: 2rem;
+     height: 12vh;
+     top: 70%;
+     
+ }
     .image_font{
         position: relative;
         width: 100%;
