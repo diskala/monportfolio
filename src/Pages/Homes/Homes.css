@@ -1,11 +1,12 @@
 ﻿ 
 main{
-    
+   
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     height: auto;
     justify-content: center;
     justify-items: center;
+   
     
     
 }
@@ -15,6 +16,7 @@ main{
     background-color: black;
     width: 100%;
     height: 85vh;
+   
     
 }
 .image_font .media{
@@ -184,7 +186,12 @@ hr{
     width: 60%;
     border-width: 0.2px;
 }
-@media screen and (min-width: 578px) and (max-width: 1200px) {
+@media screen and (min-width: 560px) and (max-width: 1200px) {
+
+    main{
+        border: 2px solid white;
+        margin-top: -2rem;
+    }
 
     .fleche i{
         font-size: 30px;
@@ -249,6 +256,10 @@ hr{
 }
 
 @media screen and (max-width: 578px) {
+    .fleche i{
+        font-size: 10px;
+        
+}
     .image_font{
         position: relative;
         width: 100%;
