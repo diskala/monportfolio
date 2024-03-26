@@ -20,7 +20,7 @@ const competencesData = [
         name: "CSS",
         type: "Language de Programmation",
         image: "/Media/logoLanguages/css-logo1.png",
-        niveau: 85,
+        niveau: 75,
       },
       {
         id: 4,
